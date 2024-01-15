@@ -62,15 +62,11 @@ strong {
 }
 
 .current-temperature {
-  margin-top: 15px;
+  display: flex;
 }
+
 .current-temperature-icon {
-  margin: 0;
-  margin-top: 20px;
-  font-size: 40px;
-  font-family: "Poppins", sans-serif;
-  position: relative;
-  top: -10px;
+  margin-top: 30px;
   margin-right: 10px;
 }
 
@@ -84,11 +80,9 @@ strong {
 
 .current-temperature-unit {
   margin: 0;
-  margin-top: 20px;
+  margin-top: 40px;
   font-size: 28px;
   font-family: "Poppins", sans-serif;
-  position: relative;
-  top: -38px;
 }
 
 footer {

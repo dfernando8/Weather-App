@@ -25,19 +25,20 @@
       <main>
         <div class="current-weather">
           <div>
-            <h1 class="current-city" id="current-city">Wałbrzych</h1>
+            <h1 class="current-city" id="current-city"></h1>
             <p>
-              <span id="current-date">Sunday 01:56</span>, heavy snow <br />
-              Humidity: <strong>96%</strong>, Wind: <strong>4 MPH</strong>
+              <span id="current-date"></span>, <span id="description"></span>
+              <br />
+              Humidity: <strong id="humidity"></strong>, Wind:
+              <strong id="wind-speed"></strong>
             </p>
           </div>
           <div class="current-temperature">
-            <span class="current-temperature-icon">❄️</span>
+            <div class="current-temperature-icon" id="icon"></div>
             <span
               class="current-temperature-value"
               id="current-temperature-value"
-              >0</span
-            >
+            ></span>
             <span class="current-temperature-unit">°C</span>
           </div>
         </div>
